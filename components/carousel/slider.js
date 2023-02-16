@@ -17,7 +17,8 @@ const Slider = () => {
             src="/../public/banner2.jpg"
             width={1900}
             height={700}
-            class="d-block w-100"
+            className="d-block w-100"
+            alt="banner2"
           />
         </CarouselItemActive>
         <CarouselItem>
@@ -25,7 +26,8 @@ const Slider = () => {
             src="/../public/banner1.jpg"
             width={1900}
             height={700}
-            class="d-block w-100"
+            className="d-block w-100"
+            alt="banner1"
           />
         </CarouselItem>
         </CarouselInner>

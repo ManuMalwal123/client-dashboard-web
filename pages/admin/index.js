@@ -1,5 +1,5 @@
 import React from 'react'
-import Admincomponents from '../../admincomponents/admintools/admincomponents'
+import Admincomponents from '../../admin-components/admintools/admin-components'
 
 function Admin() {
   return (

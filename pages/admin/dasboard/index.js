@@ -1,6 +1,6 @@
 import React from 'react'
-// import MainDashboard from '../../../admincomponents/dasboard/dasboard'
-import Adminpanel from '../../../admincomponents/adminpanel/adminpanel'
+// import MainDashboard from '../../../admin-components/dasboard/dasboard'
+import Adminpanel from '../../../admin-components/adminpanel/adminpanel'
 function Dashboard() {
   return (
     <>

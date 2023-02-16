@@ -2,7 +2,6 @@ import { Card,Container,Col1,Div1,Div2,Div3,Span1,Span2,P,IconImage } from "./St
 import Image from "next/image";
 
 export default function Items(props) {
-  console.log(props);
   return (
     <Card>
       <Container>

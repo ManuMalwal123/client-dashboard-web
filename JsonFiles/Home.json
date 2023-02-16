@@ -1,0 +1,34 @@
+{
+    "social-links" : {
+        "facebook" : "https://www.facebook.com/" , 
+        "twitter" : "https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D",
+        "linkedin" : "https://in.linkedin.com/",
+        "pinterest" : "https://www.pinterest.com/pinterest/",
+        "instagram" : "https://www.instagram.com/"
+    },
+
+     "contacts" : {
+        "phone1" : "+919216513000",
+        "phone2" : "+919988899209",
+        "email" : "klifesciences@gmail.com"
+     },
+
+     "menuItems" : [
+        {"name" : "Home"},
+        {"name" : "About"},
+        {"name" : "Products"},
+        {"name" : "Services"},
+        {"name" : "Product Gallary"},
+        {"name" : "Contact Us"}
+     ],
+
+     "icon" : {
+        "url" : "https://www.psycogen.in/wp-content/uploads/2022/07/captab-logo.png"
+     },
+      
+     "carousal" : {
+        "image1" : "https://www.psycogen.in/wp-content/uploads/2022/10/banner2-1-1.jpg",
+        "image2" : "https://www.psycogen.in/wp-content/uploads/2022/10/banner1-1-1.jpg"
+     }
+
+}

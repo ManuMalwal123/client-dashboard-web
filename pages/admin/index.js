@@ -29,6 +29,7 @@ const LoginPage = () => {
     <Fragment>
       <Container
         height={"100vh"}
+        bgColor={'#f4f4f4'}
         style={{ display: "grid", placeItems: "center" }}
       >
         <Form

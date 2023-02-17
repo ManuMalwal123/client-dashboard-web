@@ -1,13 +1,15 @@
 import React from "react";
 
-import Dashboard from "@admin-components/dasboard";
+import Layout from "@admin-components/dasboard/layout";
 
 function DashboardComponent() {
   return (
     <>
-      <Dashboard />
+      <h4>DashboardComponent</h4>
     </>
   );
 }
+
+DashboardComponent.DashboardLayout = Layout;
 
 export default DashboardComponent;

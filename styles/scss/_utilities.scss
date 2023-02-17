@@ -2,6 +2,22 @@
     border: 1px solid $gray-100;
 }
 
+.border-bottom {
+    border-bottom: 1px solid $gray-100;
+}
+
+.border-left {
+    border-left: 1px solid $gray-100;
+}
+
+.border-right {
+    border-right: 1px solid $gray-100;
+}
+
+.border-top {
+    border-top: 1px solid $gray-100;
+}
+
 .text-center {
     text-align: center !important;
 }
@@ -11,7 +27,14 @@
 }
 
 .text-muted {
-    color: $gray-500;
+    color: #808080;
+}
+.text-primary {
+    color: $blue;
+}
+
+.overflow-hidden {
+    overflow: hidden;
 }
 
 // Paddings

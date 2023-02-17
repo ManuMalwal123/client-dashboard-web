@@ -19,7 +19,8 @@ const gray100 = "#e8e8e8";
 const gray50 = "#f4f4f4";
 
 export const globalVars = {
-  borderColor: gray100,
+  primary: "#004799",
+  borderColor: '#e6eaf0',
   blueColor: blue,
   purpleColor: purple,
   redColor: red,

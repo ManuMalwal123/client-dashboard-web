@@ -35,7 +35,7 @@ function Section() {
             </Col1>
           <Col2>
            <Imagediv>
-              <Image src="/../public/neuropsychiatry.png" width={550} height={450} />
+              <Image src="/images/neuropsychiatry.png" width={550} height={450} />
             </Imagediv>
             </Col2>
           </Row>

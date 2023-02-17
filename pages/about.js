@@ -14,7 +14,7 @@ function About() {
         <Image
           width={1900}
           height={500}
-          src="/../public/about.jpg"
+          src="/images/about.jpg"
         />
         </ImageDiv>
         <Container>
@@ -60,7 +60,7 @@ function About() {
             <Col2>
               <ImageBorder>
                 <Image
-                  src="/../public/psycocaptab.png"
+                  src="/images/psycocaptab.png"
                   width="750"
                   height="700"
                 />

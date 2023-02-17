@@ -9,31 +9,31 @@ export default function BottomNav() {
             <InnerContainer>
                 <Container>
                 <ImageContainer>
-                <ImageIcon src = "/../public/home.png" width={50} height={30} />
+                <ImageIcon src = "/images/home.png" width={50} height={30} />
                 </ImageContainer>
                 <P>Home</P>
                 </Container>
                 <Container>
                 <ImageContainer>
-                <ImageIcon src = "/../public/category.png" width={50} height={30} />
+                <ImageIcon src = "/images/category.png" width={50} height={30} />
                 </ImageContainer>
                 <P>Categories</P>
                 </Container>
                 <Container>
                 <ImageContainer>
-                <ImageIcon src = "/../public/call.png" width={50} height={30} />
+                <ImageIcon src = "/images/call.png" width={50} height={30} />
                 </ImageContainer>
                 <P>Call</P>
                 </Container>
                 <Container>
                 <ImageContainer>
-                <ImageIcon src = "/../public/whatsappicon.png" width={50} height={30} />
+                <ImageIcon src = "/images/whatsappicon.png" width={50} height={30} />
                 </ImageContainer>
                 <P>Whatsapp</P>
                 </Container>
                 <Container>
                 <ImageContainer>
-                <ImageIcon src = "/../public/emailicon.png" width={50} height={30} />
+                <ImageIcon src = "/images/emailicon.png" width={50} height={30} />
                 </ImageContainer>
                 <P>Email</P>
                 </Container>

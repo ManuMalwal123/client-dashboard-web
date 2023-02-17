@@ -14,7 +14,7 @@ const Slider = () => {
       <CarouselInner>
         <CarouselItemActive>
           <Image
-            src="/../public/banner2.jpg"
+            src="/images/banner2.jpg"
             width={1900}
             height={700}
             className="d-block w-100"
@@ -23,7 +23,7 @@ const Slider = () => {
         </CarouselItemActive>
         <CarouselItem>
           <Image
-            src="/../public/banner1.jpg"
+            src="/images/banner1.jpg"
             width={1900}
             height={700}
             className="d-block w-100"

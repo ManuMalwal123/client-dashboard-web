@@ -6,7 +6,7 @@ const theme = {
     //    defaultcolor: "green"
     },
     font : {
-        defaultfont : "Roboto, Arial, Tahoma, sans-serif"
+        defaultfont : "Lato, sans-serif"
     },
     hover : {
         defaulthoversearchcolor : "#da605a",

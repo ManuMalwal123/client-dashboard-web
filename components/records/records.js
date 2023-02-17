@@ -1,8 +1,8 @@
 import Items from "./items";
-import image1 from "../../public/year.jpg";
-import image2 from "../../public/produts.jpg";
-import image3 from "../../public/customer.jpg";
-import image4 from "../../public/staff.jpg";
+import image1 from "@images/year.jpg";
+import image2 from "@images/produts.jpg";
+import image3 from "@images/customer.jpg";
+import image4 from "@images/staff.jpg";
 import CountUp from 'react-countup';
 
 import { Row,Col } from "./Styled/records.styled";

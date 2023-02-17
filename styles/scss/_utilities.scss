@@ -1,0 +1,83 @@
+.border {
+    border: 1px solid $gray-100;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.w-full {
+    width: 100% !important;
+}
+
+.text-muted {
+    color: $gray-500;
+}
+
+// Paddings
+@each $label,
+$size in $padding-vars {
+    .p-#{$label} {
+        padding: $size;
+    }
+
+    .px-#{$label} {
+        padding-left: $size;
+        padding-right: $size;
+    }
+
+    .py-#{$label} {
+        padding-top: $size;
+        padding-bottom: $size;
+    }
+
+    .pt-#{$label} {
+        padding-top: $size;
+    }
+
+    .pb-#{$label} {
+        padding-bottom: $size;
+    }
+
+    .pl-#{$label} {
+        padding-left: $size;
+    }
+
+    .pr-#{$label} {
+        padding-right: $size;
+    }
+}
+
+// Margins
+@each $label,
+$size in $padding-vars {
+    .m-#{$label} {
+        padding: $size;
+    }
+
+    .mx-#{$label} {
+        padding-left: $size;
+        padding-right: $size;
+    }
+
+    .my-#{$label} {
+        padding-top: $size;
+        padding-bottom: $size;
+    }
+
+    .mt-#{$label} {
+        padding-top: $size;
+    }
+
+    .mb-#{$label} {
+        padding-bottom: $size;
+    }
+
+    .ml-#{$label} {
+        padding-left: $size;
+    }
+
+    .mr-#{$label} {
+        padding-right: $size;
+    }
+}

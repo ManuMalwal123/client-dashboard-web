@@ -12,7 +12,7 @@ function Contact() {
       <Navbar />
       
       <ContainerFluid2>
-        <Image src="/../public/contact.jpg" height={500} width={1900} />
+        <Image src="/images/contact.jpg" height={500} width={1900} />
       </ContainerFluid2>
       <Container>
         <Row>

@@ -3,7 +3,10 @@
     "baseUrl": ".",
     "paths": {
       "@components/*": ["components/*"],
-      "@admin-components": ["admin-components/*"]
+      "@admin-components/*": ["admin-components/*"],
+      "@images/*": ["public/images/*"],
+      "@styles/*": ["styles/*"],
+      "@common/styled/*": ["common/styled-components/*"]
     }
   }
 }

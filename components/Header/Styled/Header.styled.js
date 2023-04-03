@@ -3,23 +3,53 @@ import theme from "../../../themes/default";
 
 
 export const MainHeaderContainer = styled.div.attrs(()=>({
-    className : "d-lg-block d-none"
 }))`
     background-color: ${theme.colors.defaultcolor} ;
     width: 100%;
-    line-height: 15px;
+    display:flex;
+    justify-content: space-between;
 `
-export const Container = styled.div.attrs(()=>({
-    className : "container p-0"
+
+ export const HeaderContacts = styled.div`
+    display: flex;
+    margin: 15px;
+`
+ export const ContactsContainer = styled.div`
+ color: white;
+ margin-left: 10px;
+ &:hover{
+    text-decoration: underline;
+ }
+`
+export const Iconphone = styled.i.attrs(() => ({
+    className: 'fa fa-phone',
+  }))``
+
+export const Iconemail = styled.i.attrs(()=>({
+    className : "fa fa-envelope"
 }))``
 
-export const Row = styled.div.attrs(()=>({
-    className : "row"
-}))`
-    display: flex;
+export const SocialLink = styled.a`
+    text-decoration: none;
+    color: #fff;
 `
-export const Col = styled.div.attrs(()=>({
-    className : "d-sm-flex m-0 p-0"
+
+export const Iconfacebook = styled.i.attrs(()=>({
+    className : "fa fa-facebook-f",
 }))`
- width: 98%;
 `
+export const Icontwitter = styled.i.attrs(()=>({
+    className : "fa fa-twitter",
+}))``
+
+export const Iconlinkedin = styled.i.attrs(()=>({
+    className : "fa fa-linkedin",
+}))``
+
+export const Iconpinterest = styled.i.attrs(()=>({
+    className : "fa fa-pinterest-p",
+}))``
+
+export const Iconinstagram= styled.i.attrs(()=>({
+    className : "fa fa-instagram",
+}))``

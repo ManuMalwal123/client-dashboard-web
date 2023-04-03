@@ -33,9 +33,9 @@ export default function Home() {
       <Vision />
       <Vision1 />
       <WhyChoose />
-      <Products />
-      <GetIn />
-      <Footer />
+      {/* <Products /> */}
+      {/* <GetIn />
+      <Footer /> */}
     </>
   );
 }

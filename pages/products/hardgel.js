@@ -1,9 +1,44 @@
-import Header from "../../components/Header/index";
 import Navbar from "../../components/Navbar/index";
 import Footer from "../../components/footer/footer";
+import Header from "components/Header";
 import Link from "next/link";
-import {TableContainer,Nav,Ol,Li,Li2,Span,Col1,Table,Thead,Tr,TdTabComp,TdProdName,TdProDis,TdTabData3,TdTabName3,TdTabData4,TdProName4,TdTabData2, TdProName3,
-Col2,ProH3,Range,ContactForm,ContactMenu,TeaxtH3,Name,Email,Phone,City,TextArea,Submit, ContainerHar,Ul,RangeLi,RangeLink} from "../../styles/hardgel.styled";
+import {
+  Nav,
+  Ol,
+  Li,
+  Li2,
+  Span,
+  Col1,
+  Table,
+  Thead,
+  Tr,
+  TdTabComp,
+  TdProdName,
+  TdProDis,
+  TdTabData3,
+  TdTabName3,
+  TdTabData4,
+  TdProName4,
+  TdTabData2,
+  TdProName3,
+  Col2,
+  ProH3,
+  Range,
+  ContactForm,
+  ContactMenu,
+  TeaxtH3,
+  Name,
+  Email,
+  Phone,
+  City,
+  TextArea,
+  Submit,
+  ContainerHar,
+  Ul,
+  RangeLi,
+  RangeLink,
+} from "../../styles/hardgel.styled";
+import * as Hardgel from '@styles/hardgel.styled'
 
 function Hardgel() {
   return (
@@ -18,12 +53,10 @@ function Hardgel() {
               <Link href="/">Home</Link>
             </Li>
             <Span>&gt;</Span>
-            <Li2>
-              HARDGEL CAPSULES
-              </Li2>
-            </Ol>
+            <Li2>HARDGEL CAPSULES</Li2>
+          </Ol>
         </Nav>
-        </ContainerHar>
+      </ContainerHar>
 
       <TableContainer>
         <Col1>
@@ -33,35 +66,31 @@ function Hardgel() {
                 <th style={{ width: "22%" }}>Brand Name</th>
                 <th style={{ width: "55%" }}>Composition</th>
                 <th>Category</th>
-                </tr>
-              </Thead>
+              </tr>
+            </Thead>
             <tbody>
               <tr>
                 <td className="table_data">
                   GINSENG EXTRACT & MULTIVITAMINS CAPSULES
                 </td>
-                <TdTabComp>GINWIN</TdTabComp> 
+                <TdTabComp>GINWIN</TdTabComp>
                 <TdTabComp>HARDGEL CAPSULES</TdTabComp>
-                </tr>
+              </tr>
               <Tr>
-                <TdProdName>
-                  PREGABALIN & METHYLCOBALAMIN CAPSULES
-                  </TdProdName>
+                <TdProdName>PREGABALIN & METHYLCOBALAMIN CAPSULES</TdProdName>
                 <TdProDis>MIN-PG</TdProDis>
                 <TdProDis>HARDGEL CAPSULES</TdProDis>
-                </Tr>
+              </Tr>
               <tr>
                 <TdTabData3>PROPRANOLOL CAPSULES</TdTabData3>
                 <TdTabComp>PROLAR SR-40</TdTabComp>
                 <TdTabComp>HARDGEL CAPSULES</TdTabComp>
               </tr>
               <Tr>
-                <TdProName3>
-                  PROPRANOLOL FLUNARAZINE CAPSULES
-                </TdProName3>
+                <TdProName3>PROPRANOLOL FLUNARAZINE CAPSULES</TdProName3>
                 <TdProDis> PROLAR-F</TdProDis>
                 <TdProDis>HARDGEL CAPSULES</TdProDis>
-                </Tr>
+              </Tr>
               <tr>
                 <TdTabData4>FLUOXETINE CAPSULES</TdTabData4>
                 <TdTabComp>PSYCOTENE-20 </TdTabComp>
@@ -71,7 +100,7 @@ function Hardgel() {
                 <TdProName4>PSYCOTENE-40</TdProName4>
                 <TdProDis>FLUOXETINE CAPSULES</TdProDis>
                 <TdProDis>HARDGEL CAPSULES</TdProDis>
-                </Tr>
+              </Tr>
               <tr>
                 <TdTabData4>FLUPIRTINE CAPSULES</TdTabData4>
                 <TdTabComp>PIRTINE</TdTabComp>
@@ -98,12 +127,12 @@ function Hardgel() {
                 <TdTabComp>HARDGEL CAPSULES</TdTabComp>
               </tr>
             </tbody>
-            </Table>
-          </Col1>
+          </Table>
+        </Col1>
 
         <Col2>
           <ProH3>Product Category</ProH3>
-           <Range>
+          <Range>
             <Ul>
               <RangeLi>
                 <RangeLink href="/products/hardgel">Hardgel Capsules</RangeLink>
@@ -120,26 +149,26 @@ function Hardgel() {
               <RangeLi>
                 <RangeLink href="/products/tablet">Tablet</RangeLink>
               </RangeLi>
-              </Ul>
-            </Range>
+            </Ul>
+          </Range>
           <ContactForm>
             <ContactMenu>
               <TeaxtH3>Contact us</TeaxtH3>
-              <Name/>
+              <Name />
               <br />
-              <Email/>
+              <Email />
               <br />
-              <Phone/>
+              <Phone />
               <br />
-             <City/>
+              <City />
               <br />
-             <TextArea/>
+              <TextArea />
               <br />
-              <Submit/>
-              </ContactMenu>
-            </ContactForm>
-          </Col2>
-        </TableContainer>
+              <Submit />
+            </ContactMenu>
+          </ContactForm>
+        </Col2>
+      </TableContainer>
       <Footer />
     </>
   );

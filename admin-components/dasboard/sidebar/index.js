@@ -12,6 +12,7 @@ const Sidebar = () => {
         <Link href={"/admin/dashboard"}>Dashboard</Link>
         <Link href={"/admin/dashboard/pages"}>Pages</Link>
         <Link href={"/admin/dashboard/appearance"}>Appearance</Link>
+        <Link href={"/admin/dashboard/media-list"}>Media List</Link>
         <Link href={"/admin"}>Logout</Link>
       </Menu>
     </Container>

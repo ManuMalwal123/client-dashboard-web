@@ -70,4 +70,55 @@ export const Button = styled.button`
     outline: 2px solid rgba(0, 118, 255, 1);
     outline-offset: 2px;
   }
+  a {
+    color: white;
+    text-decoration: none;
+  }
 `;
+
+export const Select = styled.select`
+width : 120px;
+height: 30px;
+cursor: pointer;
+border: none;
+border-radius: ${globalVars.borderRadius};
+&:hover{
+  background-color: ${globalVars.blueColor};
+  color: white;
+  box-shadow: 0 2px 10px 0 rgba(0, 118, 255, 0.5);
+}
+&:focus {
+    box-shadow: 0 2px 10px 0 rgba(0, 118, 255, 0.5);
+    outline-offset: 2px;
+  }
+`;
+
+export const Option = styled.option`
+width : 120px;
+height: 30px;
+cursor: pointer;
+border: none;
+border-radius: ${globalVars.borderRadius};
+&:hover{
+  background-color: ${globalVars.blueColor};
+  color: white;
+}
+&:focus {
+    box-shadow: 0 2px 10px 0 rgba(0, 118, 255, 0.5);
+    outline-offset: 2px;
+  }
+`;
+
+export const DivBlock = styled.div`
+display: block;
+margin-left: 10px;
+`
+export const DivFlex = styled.div`
+display:flex;
+text-align: center;
+`
+export const Image = styled.img.attrs((props)=>({
+  src : props.src,
+  width : props.width,
+  height : props.height
+}))``
